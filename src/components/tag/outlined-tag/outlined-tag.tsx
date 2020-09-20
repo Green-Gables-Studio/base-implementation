@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import { Styled } from './outlined-tag.styles';
-import CloseIcon from '../../icons/close/outlined-close';
+import CloseIcon from '../../icons/close/close';
 
 type OutlinedTagProps = {
   size?: 'small' | 'medium' | 'large';
