@@ -1,16 +1,11 @@
 import styled from 'styled-components';
 
 const OutlinedTag = styled.span`
-  /* cursor: default; */
   cursor: ${props => (props.disabled ? 'not-allowed' : 'default')};
   display: inline-block;
   background: #ffffff;
   border-radius: 24px;
-  /* border: 2px solid #afafaf; */
   border: ${props => (props.disabled ? '2px solid #e2e2e2' : '2px solid #afafaf')};
-  /* ${props => props.size === 'small' && 'padding: 2px 6px;'}
-  ${props => props.size === 'medium' && 'padding: 4px 10px;'}
-  ${props => props.size === 'large' && 'padding: 6px 14px;'} */
 
   ${props => {
     switch (props.size) {
@@ -28,7 +23,6 @@ const OutlinedTag = styled.span`
       }
     }
   }}
-
 `;
 
 const Content = styled.span`
@@ -99,12 +93,12 @@ const Close = styled.span`
         case 'medium': {
           return `
           width: 16px;
-          height: 16px`;
+          height: 16px;`;
         }
         case 'large': {
           return `
           width: 20px;
-          height: 20px`;
+          height: 20px;`;
         }
         default: {
           return null;
