@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import { Styled } from './solid-tag.styles';
-import SolidClose from '../../icons/close/solid-close';
+import CloseIcon from '../../icons/close/close';
 import { any } from 'prop-types';
 
 type SolidTagProps = {
@@ -33,7 +33,7 @@ const SolidTag: FC<SolidTagProps> = ({
               e.stopPropagation();
             }}
           >
-            <SolidClose />
+            <CloseIcon />
           </Styled.SolidClose>
         )}
       </Styled.Content>
