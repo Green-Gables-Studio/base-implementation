@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-const Close = props => {
+const CloseIcon = props => {
   return (
     <svg width={12} height={12} viewBox="0 0 24 24" fill="none" {...props}>
       <path
@@ -11,4 +11,4 @@ const Close = props => {
   );
 };
 
-export default Close;
+export default CloseIcon;
