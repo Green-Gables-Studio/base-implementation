@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import { Styled } from './solid-tag.styles';
-import CloseIcon from '../../icons/close/close';
+import CloseIcon from '../../icons/close-icon/close-icon';
 import { any } from 'prop-types';
 
 type SolidTagProps = {
