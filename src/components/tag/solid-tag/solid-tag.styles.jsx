@@ -91,18 +91,21 @@ const SolidClose = styled.span`
         case 'medium': {
           return `
           width: 16px;
-          height: 16px`;
+          height: 16px;`;
         }
         case 'large': {
           return `
           width: 20px;
-          height: 20px`;
+          height: 20px;`;
         }
         default: {
           return null;
         }
       }
     }}
+    path {
+      fill: ${props => (props.disabled ? '#afafaf' : '#ffffff')};
+    }
   }
 `;
 export const Styled = { SolidTag, Content, Text, SolidClose };
